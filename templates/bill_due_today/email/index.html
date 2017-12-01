@@ -1,0 +1,54 @@
+<h1 class="positive" style="color: #56ba77; font-size: 24px; font-weight: 500; margin: 0; padding: 10px 10px 0 10px;">Your Rent is Due Today</h1>
+
+<p style="color: #6d6e71; line-height: 22px; margin: 0px; padding: 10px;">
+  Your rent is due! Please make a payment of {{split}}.<br>
+  Thank you for using Rafi Payment!
+</p>
+
+{{> button }}
+
+<div class="divider" style="border-bottom: 2px solid #efefef; margin: 20px -20px;"></div>
+
+<h2 class="text-left" style="color: #6d6e71; font-size: 18px; font-weight: 500; margin: 0px; padding: 0px; text-align: left;">Details</h2>
+
+<table class="summary_table" cellpadding="8" width="100%" style="border-spacing: 0; color: #6d6e71; font-size: 12px; margin-bottom: 10px; margin-top: 20px;">
+
+{{# details }}
+    <tr>
+      <td class="summary_cell" align="left" style="border-top: 1px solid #6d6e71;">{{ key }}</td>
+      <td class="summary_cell strong" align="left" style="border-top: 1px solid #6d6e71; font-weight: bold;">{{ value }}</td>
+    </tr>
+{{/ details }}
+
+</table>
+
+{{# transfers.length }}
+
+<div class="divider" style="border-bottom: 2px solid #efefef; margin: 20px -20px;"></div>
+
+<h2 class="text-left" style="color: #6d6e71; font-size: 18px; font-weight: 500; margin: 0px; padding: 0px; text-align: left;">Transfers</h2>
+
+<table class="summary_table" cellpadding="8" width="100%" style="border-spacing: 0; color: #6d6e71; font-size: 12px; margin-bottom: 10px; margin-top: 20px;">
+
+  <tr>
+    <td class="summary_cell" align="left" style="border-top: 1px solid #6d6e71;">Name</td>
+    <td class="summary_cell" align="left" style="border-top: 1px solid #6d6e71;">Date</td>
+    <td class="summary_cell" align="left" style="border-top: 1px solid #6d6e71;">Status</td>
+    <td class="summary_cell" align="left" style="border-top: 1px solid #6d6e71;">Amount</td>
+  </tr>
+
+{{# transfers }}
+  
+  <tr>
+    <td class="summary_cell strong" align="left" style="border-top: 1px solid #6d6e71; font-weight: bold;">{{ name }}</td>
+    <td class="summary_cell strong" align="left" style="border-top: 1px solid #6d6e71; font-weight: bold;">{{ date }}</td>
+    <td class="summary_cell strong" align="left" style="border-top: 1px solid #6d6e71; font-weight: bold;">
+      <span class="status {{ status }}" style="border-radius: 3px; display: inline-block; font-size: 12px; font-weight: 200; padding: 4px 6px;">{{ status }}</span>
+    </td>
+    <td class="summary_cell strong" align="left" style="border-top: 1px solid #6d6e71; font-weight: bold;">{{ amount }}</td>
+  </tr>
+
+{{/ transfers }}
+
+</table>
+{{/ transfers.length }}

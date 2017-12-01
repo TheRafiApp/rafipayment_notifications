@@ -1,0 +1,6 @@
+{
+	"host_name": "http://localhost:60065",
+	"image_path": "/static",
+	"app_name": "Rafi Payment",
+	"receiver_name": "Nick Ford"
+}

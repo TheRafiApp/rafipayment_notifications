@@ -1,0 +1,18 @@
+{
+	"url": "http://google.com",
+	"button_text": "View Bill",
+	"details": [
+		{
+			"key": "Lease",
+			"value": "533 Washington St, Unit 1"
+		},
+		{
+			"key": "Date",
+			"value": "January 1, 2017"
+		},
+		{
+			"key": "Bill ID",
+			"value": "RP404"
+		}
+	]
+}
