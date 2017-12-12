@@ -1,13 +1,6 @@
 {
-  "type": "Automatic",
-  "amount": "$100.00",
-  "date": "January 1, 2017",
-  "source": "My Bank Account",
-  "destination": "ACME",
-  "method": "Automatic",
-  "lease": "533 Washington St, Unit 1",
-  "bill_id": "RP404",
-  "details": [
+	"amount": "$100.00",
+	"details": [
 		{
 			"key": "Lease",
 			"value": "533 Washington St, Unit 1"

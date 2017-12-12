@@ -3,7 +3,7 @@
 	"button_text": "Make a Payment",
 	"balance": "$1200",
 	"split": "$1200",
-	"url": "http://payment.rafiproperties.com",
+	"path": "/bills/id",
 	"details": [
 		{
 			"key": "Lease",

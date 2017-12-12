@@ -1,7 +1,6 @@
 {
 	"bank_name": "Bank of America",
 	"account_name": "My Checking Account",
-	"date": "January 1, 2017",
 	"microdeposits": true,
 	"details": [
 		{

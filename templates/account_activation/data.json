@@ -1,20 +1,27 @@
 {
-	"url": "http://payment.rafiproperties.com/",
 	"button_text": "Log In Now",
 	"microdeposits": true,
 	"details": [
 		{
-			"status": "complete",
-			"body": "Added Bank Account"
-		},
-		{
 			"status": "pending",
-			"body": "Microdeposits Pending",
-			"link": "http://payment.rafiproperties.com/help"
+			"body": "Added Bank Account",
+			"funding_source_status": "unverified",
+			"microdeposits_status": "pending",
+			"link": "http://payment.rafiproperties.com/help#microdeposits"
 		},
 		{
 			"status": "complete",
-			"body": "Recurring Payments Enabled"
+			"body": "Recurring Payments Enabled",
+			"leases": [
+				{
+					"number": "12",
+					"address": "200 Main St, Unit 3"
+				},
+				{
+					"number": "13",
+					"address": "533 Washinton St, #7"
+				}
+			]
 		}
 	]
 }

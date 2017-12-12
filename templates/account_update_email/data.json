@@ -1,6 +1,5 @@
 {
 	"email_address": "christopher.antonellis@gmail.com",
-	"url": "http://www.yahoo.com/",
-	"code": "7VFJX2",
+	"path": "/confirm/email?token=id",
 	"button_text": "Confirm Change"
 }

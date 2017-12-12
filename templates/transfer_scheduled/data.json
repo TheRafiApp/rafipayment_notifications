@@ -1,9 +1,6 @@
 {
-	"type": "Automatic",
 	"amount": "$100.00",
 	"date": "January 1, 2017",
-	"source": "My Bank Account",
-	"destination": "ACME",
 	"details": [
 		{
 			"key": "Lease",
