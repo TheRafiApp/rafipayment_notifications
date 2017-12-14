@@ -1,5 +1,6 @@
 {
 	"host_name": "http://localhost:60065",
+	"host_name_images": "http://app.staging.rafipayment.com",
 	"image_path": "/static",
 	"app_name": "Rafi Payment",
 	"receiver_name": "Nick Ford"
