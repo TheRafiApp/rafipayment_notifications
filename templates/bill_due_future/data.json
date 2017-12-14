@@ -3,7 +3,7 @@
 	"display_due_date": "September 16th",
 	"balance": "$2400",
 	"button_text": "Make a Payment",
-	"split": "$1200",
+	"amount": "$1200",
 	"path": "/bills/id",
 	"details": [
 		{
